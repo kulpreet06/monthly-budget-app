@@ -1,0 +1,19 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Monthly Budget App</title>
+</head>
+<body>
+  <h1>Monthly Budget</h1>
+
+  <input id="income" type="number" placeholder="Monthly Income" />
+  <input id="expenses" type="number" placeholder="Monthly Expenses" />
+
+  <button onclick="calculateBudget()">Calculate</button>
+
+  <h2 id="result"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
