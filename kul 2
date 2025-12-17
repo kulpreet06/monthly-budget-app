@@ -1,0 +1,10 @@
+javascript
+function calculateBudget() {
+  const income = Number(document.getElementById("income").value);
+  const expenses = Number(document.getElementById("expenses").value);
+
+  const remaining = income - expenses;
+
+  document.getElementById("result").innerText =
+    "Remaining Budget: $" + remaining;
+}
